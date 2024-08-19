@@ -1,0 +1,27 @@
+IF PASSWORD IS "PASSWORD" MAKE THEM CHANGE IT - Done
+PASSWORD STRENGTH CHECK -- Partial Done, Do it when registering 
+SEARCH BAR AJAX REQUEST FOR USERS ON ADMIN PAGES -- Not done
+FIX PAGINATIOn LOCATION - DONE
+FIX ADD USER SUBMIT ON USER TABLES PAGE AND FIX SAVE USER ETC  - Done
+DO PROFILE PAGE REDIRECTS ETC -- Partial Done
+FIX DOWNLOAD BUTTON ON USERTABLES PAGE -- Done
+Quiz Upload - Done
+Add Page to courses for tutors, textbox desc, title, type etc - Done
+Multistep form for adding post -- Done
+Fix datepicker visual - Not done
+
+
+FOR NEIL : I have added an admin account for you, from here you can add your own staff and student account to test with, although when creating an account, make sure to accept it from the user registration confirmation page first.
+Aditionally, PHP and HTML don't seem to like each other recently, so if errors keep popping up in the IDE just close and open again and it fixes it
+
+Admin Credentials:
+Email: nb@nb
+Password: password
+
+Feature to look at: Differences between permissions, and what they can do. 
+Admin: Accept/Deny Users, Add users manually or with a file(there is a dummy file to download on the modal that the button opens), create a new course (with an image, which will be displayed on the card for the course(only sudents and staff can see this part)), delete user, edit users
+Staff: See their course, create quiz or post (can upload document), hide or show post, delete post, view quiz results, view quiz, remove users from course
+Student: See course, take quiz, view post, view quiz results (own), this is seen on the screen to take the quiz, it will show past attempts
+
+Extra Features of Note: If a user has a password of password then they are made to go through a password change, which also uses a strength checker
+Some pages have success and failure messages, this is inconsistent around the website though

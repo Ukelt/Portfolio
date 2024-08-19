@@ -1,0 +1,1 @@
+[Firstname],[Surname],[Role (admin, lecturer/staff, guest/student)],[email],[accepted (1 for yes, 0 for no)], image(1 for is user has an image of their id in the correct place, just put 0 for ease)
